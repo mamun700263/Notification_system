@@ -1,0 +1,101 @@
+# 🔥 Python bytecode & cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# 🔒 Environment & secrets
+.env
+.env.*
+
+# 🧪 Test artifacts
+.coverage
+htmlcov/
+*.log
+*.tmp
+*.test.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.cache/
+.tox/
+
+# ⚙️ Virtual environments
+venv/
+env/
+.venv/
+
+# 🧰 IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.bak
+*.tmp
+.DS_Store
+
+# 🗃 DB & media
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+static/
+build/
+
+# 🐳 Docker / container artifacts
+*.pid
+celerybeat-schedule
+celerybeat.pid
+*.db-journal
+
+# ⚙️ Migrations (if auto-generated or untracked)
+# Comment this out if you version control migrations
+# **/migrations/
+# !*/migrations/__init__.py
+
+# 🚀 Deployment
+*.pem
+*.crt
+*.key
+*.pub
+*.log
+
+# 🧱 Local config
+local_settings.py
+settings_local.py
+
+# 📦 Packaging
+dist/
+build/
+*.tar.gz
+*.whl
+
+# 🚧 JetBrains / PyCharm
+.idea/
+*.iml
+
+# ✅ Pydantic cache (if used with settings)
+__pydantic__/
+
+# 🐍 If using pipenv
+Pipfile.lock
+
+# 🐳 If using Docker
+docker-compose.override.yml
+
+#extra
+.questions/
+.questions
+plan
+
+# .gitignore
+.vscode/
+pytest_cache/
+mypy_cache/
+.coverage
