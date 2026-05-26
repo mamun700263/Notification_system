@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+.env.*
+
+# Git
+.git/
+.gitignore
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.md
+
+# Tests / cache
+.pytest_cache/
+.mypy_cache/
+
+# Celery / runtime junk
+celerybeat-schedule
